@@ -1,6 +1,6 @@
 # Projeto 1 - Node Todolist Fullstack
 
-## Projeto criado com o intuíto para estudar a estruturação, organização e conexão entre NodeJS e MySQL, utilizando o Docker.
+Projeto criado com o intuíto para estudar a estruturação, organização e conexão entre NodeJS e MySQL, utilizando o Docker.
 - Aprendendo a construir api e utilizar o docker
 
 Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ1Y2-ZBbE7ROP6u1kU0J5l
