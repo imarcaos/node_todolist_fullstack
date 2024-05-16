@@ -5,7 +5,7 @@
 - Todolist-fullstack
     - |_ backend
         - |_ src
-            -|_ models
+            - |_ models
     - |_ frontend
 
 #### Dependências do Projeto:
@@ -22,6 +22,7 @@ Outras ferramentas
 - Inicio da estrutura do projeto
 - Instalação das dependências
 - Criação da conexão com a base de dados e o ficheiro .env com as informações de conexão.
-min20:38
+
+- min29:35
 
 Vídeo: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ1Y2-ZBbE7ROP6u1kU0J5l
