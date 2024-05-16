@@ -7,7 +7,7 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
 
 #### Pré-requisitos para este projeto
 - Visual Studio Code (codar)
-- Insonia (testar as rotas da api)
+- Insomnia (testar as rotas da api)
 - Docker (Rodar contentores em cima)
 - NodeJS
 - MySQL
@@ -36,6 +36,12 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
 - Instalação das dependências
 - Criação da conexão com a base de dados e o ficheiro .env com as informações de conexão.
 - Rotas e conexão com a base de dados
+- Testando a api com o Insomnia
+- Subir um container com o MySQL
+- Criação da Base de Dados (todolist) necessária com as respectivas tabelas (id, title, status, created_at)
+- Inserido um dado na BD e verificar a requisição no Insomnia
+- Finalizado a primeira rota de /tasks
 
-- min38
+
+- min59
 
