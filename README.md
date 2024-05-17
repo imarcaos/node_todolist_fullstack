@@ -45,6 +45,7 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
 - Finalizado a primeira rota de /tasks
 - Criando uma nova rota para adicionar uma nova task 'post'
 - Criar um pasta para tratar as excepções middlewares
+- Criar rota para apagar tasks usando o método delete
 
 
 - min59
