@@ -34,19 +34,24 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
 
 #### Pontos principais:
 
-- Inicio da estrutura do projeto
-- Instalação das dependências
-- Criação da conexão com a base de dados e o ficheiro .env com as informações de conexão.
-- Rotas e conexão com a base de dados
-- Testando a api com o Insomnia
-- Subir um container com o MySQL
-- Criação da Base de Dados (todolist) necessária com as respectivas tabelas (id, title, status, created_at)
-- Inserido um dado na BD e verificar a requisição no Insomnia
-- Finalizado a primeira rota de /tasks
-- Criando uma nova rota para adicionar uma nova task 'post'
-- Criar um pasta para tratar as excepções middlewares
-- Criar rota para apagar tasks usando o método delete
+- Backend
+    - Inicio da estrutura do projeto
+    - Instalação das dependências
+    - Criação da conexão com a base de dados e o ficheiro .env com as informações de conexão.
+    - Rotas e conexão com a base de dados
+    - Testando a api com o Insomnia
+    - Subir um container com o MySQL
+    - Criação da Base de Dados (todolist) necessária com as respectivas tabelas (id, title, status, created_at)
+    - Inserido um dado na BD e verificar a requisição no Insomnia
+    - Finalizado a primeira rota de /tasks
+    - Criando uma nova rota para adicionar uma nova task 'post'
+    - Criar um pasta para tratar as excepções middlewares
+    - Criar rota para apagar tasks usando o método delete
+    - Criar rota para atualizar tasks usando o método put
+    - API finalizada.
+
+- Frontend
 
 
-- min59
+- 1h30
 
