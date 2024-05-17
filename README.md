@@ -16,7 +16,9 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
 - Todolist-fullstack
     - |_ backend
         - |_ src
+            - |_ controllers
             - |_ models
+            - |_ middlewares
     - |_ frontend
 
 #### Dependências do Projeto:
@@ -41,6 +43,8 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
 - Criação da Base de Dados (todolist) necessária com as respectivas tabelas (id, title, status, created_at)
 - Inserido um dado na BD e verificar a requisição no Insomnia
 - Finalizado a primeira rota de /tasks
+- Criando uma nova rota para adicionar uma nova task 'post'
+- Criar um pasta para tratar as excepções middlewares
 
 
 - min59
