@@ -28,6 +28,7 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
     - npm install mysql2
     - npm install nodemon -D
     - npm install dotenv
+    - npm install cors
 
 - Outras ferramentas
     - npx eslint --init (manter o código limpo, erros e seguir um estilo de código js)
@@ -51,6 +52,10 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
     - API finalizada.
 
 - Frontend
+    - Ainda dentro do backend vamos instalar mais uma dependência para permitir os clientes a acessarem nossa aplicação
+        - npm install cors
+    - Adicionado o cors no app.js
+    - 
 
 
 - 1h30
