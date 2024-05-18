@@ -20,6 +20,8 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
             - |_ models
             - |_ middlewares
     - |_ frontend
+        - |_ css
+        - |_ js
 
 #### Dependências do Projeto:
 - Iniciar o projeto dentro da pasta "backend"
@@ -55,7 +57,14 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
     - Ainda dentro do backend vamos instalar mais uma dependência para permitir os clientes a acessarem nossa aplicação
         - npm install cors
     - Adicionado o cors no app.js
-    - 
+    - Criação da Pasta "frontend" e dentro dela "css" e "js"
+    - Criado os ficheiros
+        - index.hmtl na raiz do frontend
+        - style.css na pasta css
+        - scrypt.js na pasta js
+    - Ícones utilizados no projeto: https://fonts.google.com/icons
+    - Criação do formulário e tabelas
+    - Estilização do html
 
 
 - 1h30
