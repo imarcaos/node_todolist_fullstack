@@ -6,17 +6,32 @@ const fetchTasks = async () => {
     return tasks
 }
 
-const createElement = (tag, innerText = '') => {
+const createElement = (tag, innerText = '', innerHTML = '') => {
     const element = document.createElement(tag)
-    element.innerText = innerText
+
+    if (innerText) {
+        element.innerText = innerText
+    }
+
+    if (innerHTML) {
+        element.innerHTML = innerHTML
+    }
+    
     return element
 }
 
-const task = {
-    id: 1,
-    title: 'Obrigado por acompanhar do Desenvolvimento desta App',
-    created_at: '18 Maio de 2024 00:12',
-    status: 'pendente'
+const createSelect = (value) => {
+    const options = `
+        <option value="pendente">pendente</option>
+        <option value="em andamento">em andamento</option>
+        <option value="concluída">concluída</option>
+    `
+
+    const select = createElement('select', '', options)
+
+    select.value = value
+
+    return select
 }
 
 const createRow = (task) => {
@@ -26,9 +41,38 @@ const createRow = (task) => {
     const tr = createElement('tr')
     const tdTitle = createElement('td', title)
     const tdCreatedAt = createElement('td', created_at)
+    const tdStatus = createElement('td')
+    const tdActions = createElement('td')
 
+    const select = createSelect(status)
+
+    const editButton = createElement('button', '', '<span class="material-symbols-outlined">edit</span>')
+    const deleteButton = createElement('button', '', '<span class="material-symbols-outlined">delete</span>')
+
+    // cada botão tem uma classe, vamos adicionar a classe
+    editButton.classList.add('btn-action')
+    deleteButton.classList.add('btn-action')
+
+    tdStatus.appendChild(select)
+
+    tdActions.appendChild(editButton)
+    tdActions.appendChild(deleteButton)
+
+    tr.appendChild(tdTitle)
+    tr.appendChild(tdCreatedAt)
+    tr.appendChild(tdStatus)
+    tr.appendChild(tdActions)
+
+    return tr
 }
 
+const loadTasks = async () => {
+    const tasks = await fetchTasks()
 
+    tasks.forEach((task) => {
+        const tr = createRow(task)
+        tbody.appendChild(tr)        
+    });
+}
 
-//createRow(task)
+loadTasks()
