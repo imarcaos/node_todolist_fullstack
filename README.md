@@ -69,7 +69,8 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
         - Criando as funções tr e td
         - Td dos botões e select status (mais complexa de criar)
     - Carregando as Tasks da nossa Base de Dados
+    - Criando a função para adicionar tasks e formatar a data
 
 
-- 49m01
+- 1h04
 
