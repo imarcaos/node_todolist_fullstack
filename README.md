@@ -1,9 +1,14 @@
 # Projeto 1 - Node Todolist Fullstack
 
 Projeto criado com o intuíto para estudar a estruturação, organização e conexão entre NodeJS e MySQL, utilizando o Docker.
-- Aprendendo a construir api e utilizar o docker
+- Aprendendo a construir api node e utilizar o docker
 
 Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ1Y2-ZBbE7ROP6u1kU0J5l
+Git Projeto Original: https://github.com/manualdodev/todolist-fullstack
+
+##### Projeto FullStack Finalizado
+![Projeto Node FullStack Finalizado](/Projeto-Node-Fullstack-Vfinal.png)
+
 
 #### Pré-requisitos para este projeto
 - Visual Studio Code (codar)
@@ -72,7 +77,10 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
     - Criando a função para adicionar tasks e formatar a data
     - Função do botão delete
     - Função update do botão status
+    - Criando um formulário input e a função do botão editar tarefa
+    - Projeto Finalizado - 2024/05/21
+    - Deixo uma Nota: Até o momento não sei o nome da pessoa do Canal Manual do Dev, mas só tenho a agradeçar a didática dele que é incrível, aprendi coisas que serão muito úteis em diversas linguagens, a organização do código e na visão dele em como pensar na lógica do código, excelente!!!
 
 
-- 1h16
+
 
