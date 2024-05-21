@@ -71,6 +71,7 @@ Vídeo 1 Backend: https://www.youtube.com/watch?v=Cdu0WJhI-d8&list=PLdtmpu_1ITQJ
     - Carregando as Tasks da nossa Base de Dados
     - Criando a função para adicionar tasks e formatar a data
     - Função do botão delete
+    - Função update do botão status
 
 
 - 1h16
